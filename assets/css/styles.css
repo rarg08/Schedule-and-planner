@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4285f4;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  #currentDay {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .time-block {
+    display: flex;
+    overflow:auto;
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid  black 1px
+  }
+  
+  .time-block .hour {
+    flex-basis: 100px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #555;
+     overflow:auto;
+  }
+  
+  .time-block .event-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    overflow:auto;
+  }
+  .event-text {
+    display: flex;
+    flex-grow: 1;
+    padding: 5px;
+    border: solid blue;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    overflow:auto;
+  }
+  
+  .time-block .save-btn {
+    flex-basis: 80px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .past {
+    background-color: red;
+  }
+  
+  .present {
+    background-color: blue;
+  }
+  
+  .future {
+    background-color: green;
+  }
+  
